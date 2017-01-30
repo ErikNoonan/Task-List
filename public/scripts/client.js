@@ -31,7 +31,7 @@ function appendItems(taskItems) {
 
         // checks if task is complete or not
         if (complete == true) {
-            var $completeButton = $('<button class="complete">Try Again?</button>');
+            var $completeButton = $('<button class="complete">Do Again?</button>');
             $completeButton.data({
                 id: id,
                 complete: complete
